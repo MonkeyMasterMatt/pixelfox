@@ -1,11 +1,11 @@
 // Import Google fonts
-@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Raleway:400,100,300,700,500");
+// @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Raleway:400,100,300,700,500");
 
-// Define fonts for body and headers
-$body-font: "Open Sans", "Helvetica", "sans-serif";
-$headers-font: "Raleway", "Helvetica", "sans-serif";
+// // Define fonts for body and headers
+// $body-font: "Open Sans", "Helvetica", "sans-serif";
+// $headers-font: "Raleway", "Helvetica", "sans-serif";
 
-// To use a font file (.woff) uncomment following lines
+// // To use a font file (.woff) uncomment following lines
 // @font-face {
 //   font-family: "Font Name";
 //   src: font-url('FontFile.eot');
@@ -13,4 +13,18 @@ $headers-font: "Raleway", "Helvetica", "sans-serif";
 //        font-url('FontFile.woff') format('woff'),
 //        font-url('FontFile.ttf') format('truetype')
 // }
-// $my-font: "Font Name";
+
+
+
+@import url("//hello.myfonts.net/count/381020");
+
+
+@font-face {
+  font-family: 'Avenir';
+  src: url('webfonts/381020_0_0.eot');
+  src: url('webfonts/381020_0_0.eot?#iefix') format('embedded-opentype'),
+  url('webfonts/381020_0_0.woff2') format('woff2'),
+  url('webfonts/381020_0_0.woff') format('woff'),
+  url('webfonts/381020_0_0.ttf') format('truetype');}
+
+$my-font: "Avenir";
