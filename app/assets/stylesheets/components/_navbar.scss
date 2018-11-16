@@ -1,3 +1,36 @@
-// .application-nav-logo {
-//   background: image-url("standard-pixelandfox.png");
-// }
+.application-nav {
+ position: absolute;
+ top: 0;
+ right: 0;
+ left: 0;
+ padding-top: 1rem;
+ padding-bottom: 1rem;
+ text-align: center;
+}
+.application-nav-logo {
+  display: inline-block;
+  text-align: center;
+}
+.logo-pixel-only {
+  height: 50px;
+  width: 50px;
+}
+.application-nav-mobile-icon {
+  position: absolute;
+  left: 1.5rem;
+  top: 2rem;
+  color: $red;
+}
+.application-nav-hire-us {
+  position: absolute;
+  right: 1.5rem;
+  top: 1.7rem;
+  color: $red;
+  font-weight: 700;
+  border-bottom: 1px dotted;
+}
+.application-nav-dropdown {
+  display: none;
+}
+
+

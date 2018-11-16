@@ -1,7 +1,18 @@
 <header class="application-nav">
   <a href="/" class="application-nav-logo">
-    <%= image_tag("standard-pixelandfox.png", alt: "logo") %>
+    <%= image_tag("standard-pixelandfox.png", alt: "logo", class: "logo-pixel-only") %>
   </a>
-  <a href="/" class="fas fa-bars dropdown-toggle" data-toggle="dropdown"></a>
+  <a href="/" class="fas fa-bars application-nav-mobile-icon"></a>
   <a href="/" class="application-nav-hire-us">Hire us!</a>
+  <nav class="application-nav-dropdown">
+    <ul>
+      <li class="application-nav-li">
+        <a href="/">Services</a>
+      </li>
+      <li class="application-nav-li">
+        <a href="/">Case Studies</a>
+      </li>
+    </ul>
+  </nav>
 </header>
+
