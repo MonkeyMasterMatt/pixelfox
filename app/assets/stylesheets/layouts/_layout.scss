@@ -4,4 +4,11 @@ body {
 a {
   background-color: transparent;
   text-decoration: none;
+  &:active,
+  &:focus {
+    text-decoration: none;
+  }
+}
+li {
+  list-style-type: none;
 }

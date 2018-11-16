@@ -20,6 +20,10 @@
   left: 1.5rem;
   top: 2rem;
   color: $red;
+  &:active,
+  &:focus {
+    color: $red;
+  }
 }
 .application-nav-hire-us {
   position: absolute;
@@ -28,9 +32,23 @@
   color: $red;
   font-weight: 700;
   border-bottom: 1px dotted;
+  &:active,
+  &:focus {
+    color: $red;
+  }
 }
 .application-nav-dropdown {
   display: none;
+  padding-bottom: 1.5rem;
+  ul {
+    padding: 0;
+  }
 }
-
+.application-nav-li {
+  margin-top: 2.5rem;
+  font-weight: 500;
+  a {
+    color: $gray;
+  }
+}
 
